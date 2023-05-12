@@ -1,0 +1,10 @@
+.github
+deploy
+.gitignore
+.env
+.env-ci
+docker-compose-ci.yaml
+docker-compose.yaml
+Dockerfile
+README.md
+

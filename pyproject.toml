@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "diploma"
+version = "0.1.0"
+description = "'final skypro project'"
+authors = ["plamer <plamer88@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.7"
+djangorestframework = "^3.14.0"
+python-dotenv = "^1.0.0"
+psycopg2-binary = "^2.9.5"
+gunicorn = "^20.1.0"
+social-auth-app-django = "^5.2.0"
+django-filter = "^23.1"
+marshmallow-dataclass = "^8.5.13"
+
+
+[tool.poetry.group.develop.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
